@@ -1,0 +1,37 @@
+// 将按键绑定放在此文件中以覆盖默认值auto[]
+[
+    {
+        "key": "cmd+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+a",
+        "command": "copilot-labs.use-brush-picker",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+cmd+e",
+        "command": "-copilot-labs.use-brush-picker",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+f",
+        "command": "workbench.action.quickTextSearch"
+    },
+    // {
+    //     "key": "tab",
+    //     "command": "selectNextSuggestion",
+    //     "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    // },
+    //     {
+    //     "key": "shift+tab",
+    //     "command": "selectPrevSuggestion",
+    //     "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    // }
+]

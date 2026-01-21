@@ -1,0 +1,59 @@
+{
+  "vue2 init": {
+    "body": [
+      "<template>",
+      "  <div class=\"container\">component</div>",
+      "</template>",
+      "  ",
+      "<script>",
+      "  export default {",
+      "    data() {",
+      "      return {",
+      "        ",
+      "      }",
+      "    },",
+      "    mounted() {",
+      "      ",
+      "    },",
+      "    methods: {",
+      "    }",
+      "  }",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "  .container {",
+      "    width: 100%;",
+      "    height: 100%;",
+      "  }",
+      "</style>",
+      ""
+    ],
+    "scope": "",
+    "prefix": [
+      "vue2 init"
+    ]
+  },
+  "Vue3 init": {
+    "body": [
+      "<script setup lang=\"ts\">",
+      "  import { ref, onMounted, onUnmounted } from 'vue'",
+      "</script>",
+      "",
+      "<template>",
+      "  <div class=\"container\">component</div>",
+      "</template>",
+      "",
+      "<style lang=\"less\" scoped>",
+      "  .container {",
+      "    width: 100%;",
+      "    height: 100%;",
+      "  }",
+      "</style>",
+      ""
+    ],
+    "scope": "vue",
+    "prefix": [
+      "vue3 init"
+    ]
+  }
+}

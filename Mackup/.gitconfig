@@ -1,0 +1,14 @@
+[user]
+	email = aydengeng@gmail.com
+	name = ayden
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[log]
+	date = iso
+[http]
+	proxy = http://127.0.0.1:8888
+[https]
+	proxy = http://127.0.0.1:8888
